@@ -4,11 +4,14 @@
 
 .rotate {
   transform: rotate(180deg);
-  transition: 0.3s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
 
-
-.goal {
+.rotate2 {
   transform: rotate(360deg);
-  transition: 0.5s ease-in-out;
+  transition: 0.2s ease-in-out;
+}
+
+.thomas-bg {
+  background: linear-gradient(180deg, rgba(15, 175, 245, 0.15) 0%, rgba(64, 115, 219, 0.15) 100%);
 }
